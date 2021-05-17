@@ -3,4 +3,4 @@ const app = express()
 const routes = require('./api/routes')
 
 app.use('/api', routes)
-app.listen(80)
+app.listen(8080)
